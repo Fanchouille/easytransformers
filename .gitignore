@@ -1,0 +1,7 @@
+.conda/
+__pycache__/
+.idea/
+
+runs/
+*.pickle
+montecristo_model/

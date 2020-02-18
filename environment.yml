@@ -1,0 +1,25 @@
+name: easyembedder
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.7
+  - pip
+  - setuptools
+  - wheel
+  - tqdm
+  - twine
+  - autopep8
+  - retrying
+  - ipykernel
+  - requests
+  - pandas
+  - numpy
+  - pytest
+  - pip:
+    - torch
+    - transformers
+    - transformers[serving]
+    - tokenizers==0.4.2
+    - tensorboardX
