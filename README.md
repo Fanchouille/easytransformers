@@ -17,6 +17,7 @@ git clone https://github.com/huggingface/transformers
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
+& follow instructions
 ## Install & activate conda env
 ````bash
 ./install.sh
@@ -27,7 +28,7 @@ conda activate ${PWD}/.conda
 ```
 
 # How to train/fine tune a transformer model
-Copy *run_language_modeling.py* from transformers folder where in easytransformers
+Copy *run_language_modeling.py* from transformers folder in easytransformers
 
 You can modify it from training from scratch
 
@@ -116,4 +117,5 @@ curl -X POST "http://localhost:8888/forward" -H "accept: application/json" -H "C
 
 ## Reads about transformers models
 http://jalammar.github.io/illustrated-transformer/
+
 http://jalammar.github.io/illustrated-bert/
